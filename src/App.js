@@ -29,10 +29,10 @@ function Real_time()
     let real_seconds = new Date().getSeconds();
     let real_ampm;
 
-    if(real_hours <= 12){
+    if(real_hours <= 12) {
       real_ampm = 'AM';
     }
-    else{
+    else {
       real_ampm = 'PM';
     }
 
